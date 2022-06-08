@@ -12,7 +12,7 @@
                 background-image: url('../../assets/img/background2.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-attachment: local;
+                background-attachment: unset;
                 &:nth-child(2){
                     align-items: center;
                 }

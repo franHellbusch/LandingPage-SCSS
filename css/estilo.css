@@ -257,7 +257,7 @@
       background-image: url("../../assets/img/background2.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      background-attachment: local; }
+      background-attachment: unset; }
       .index .main-index .img-presentacion:nth-child(2) {
         align-items: center; }
       .index .main-index .img-presentacion .presentacion_title {
@@ -314,7 +314,7 @@
     height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: local;
+    background-attachment: unset;
     display: flex;
     flex-direction: column;
     justify-content: center; }
