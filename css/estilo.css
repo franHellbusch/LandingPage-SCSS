@@ -29,6 +29,7 @@
     height: 85vh;
     display: flex;
     justify-content: space-between;
+    background-image: url(assets/img/background2.jpg);
     background-size: 110% auto;
     background-repeat: no-repeat;
     background-attachment: fixed; }
