@@ -1,0 +1,38 @@
+.index{
+    .main-index{
+        .bienvenida{
+            margin: 5% 13%;
+            .bienvenida_explicacion1{
+                display: flex;
+                .bienvenida1_img{
+                    width: 45%;
+                }
+                .bienvenida1_card{
+                    margin-left: 10%;
+                    .bienvenida1_title{
+                        font-size: 40px;
+                    }
+                    .bienvenida1_texto{
+                        font-size: 17px;
+                    }
+                }
+            }
+            .bienvenida_explicacion2{
+                display: flex;
+                .bienvenida2_card{
+                    margin-top: 5%;
+                    .bienvenida2_title{
+                        font-size: 40px;
+                    }
+                    .bienvenida2_texto{
+                        font-size: 17px;
+                    }
+                }
+                .bienvenida2_img{
+                    width: 45%;
+                    margin-left: 5%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@media (max-width: 600px) {
+    .index{
+        .header{
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0 0.5rem;
+            .header_title-position{
+                height: 60px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .header_title{
+                    margin-left: 10px;
+                    font-size: 45px;
+                }
+                .header_nav-icon{
+                    height: 18px;
+                    display: block;
+                    margin-right: 0.5rem;
+                    padding: 8px 13px;
+                    border-radius: 5px;
+                    border: 1px solid black;
+                }
+                .header_nav-cancel{
+                    height: 18px;
+                    width: 18px;
+                    margin-right: 0.5rem;
+                    padding: 8px 12px;
+                    border-radius: 5px;
+                    border: 1px solid black;
+                }
+            }
+            .header_nav{
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                .nav{
+                    flex-direction: column;
+                    padding: 0;
+                    margin: 0;
+                    .nav_items{
+                        padding: 10px 15px;
+                        margin: 0;
+                        border-bottom: 1px solid #e9e6eb;
+                        .nav_links{
+                            font-size: 17px;
+                        }
+                    }
+                }
+                .nav_button{
+                    width: 40%;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}

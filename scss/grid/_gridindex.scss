@@ -1,0 +1,18 @@
+.index{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    .header{
+        grid-area: header;
+    }
+    .main-index{
+        grid-area: main;
+    }
+    .footer{
+        grid-area: footer;
+    }
+}

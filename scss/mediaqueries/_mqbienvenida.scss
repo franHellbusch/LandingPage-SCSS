@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+    .index{
+        .main-index{
+            .bienvenida{
+                margin: 0;
+                .bienvenida_explicacion1{
+                    flex-direction: column;
+                    text-align: center;
+                    align-items: center;
+                    .bienvenida1_img{
+                        width: 100%;
+                    }
+                    .bienvenida1_card{
+                        margin: 0 5%;
+                        .bienvenida1_title{
+                            font-size: 28px;
+                        }
+                        .bienvenida1_texto{
+                            font-size: 15px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+                .bienvenida_explicacion2{
+                    flex-direction: column-reverse;
+                    text-align: center;
+                    align-items: center;
+                    .bienvenida2_card{
+                        margin: 0 5%;
+                        .bienvenida2_title{
+                            font-size: 28px;
+                        }
+                        .bienvenida2_texto{
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                    .bienvenida2_img{
+                        width: 80%;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}

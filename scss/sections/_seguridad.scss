@@ -1,0 +1,28 @@
+.index{
+    .main-index{
+        .seguridad{
+            background-image: url('../../assets/img/background-seguridad.jpg');
+            background-size: 110% auto;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            .seguridad_card{
+                margin: 0 13%;
+                display: flex;
+                .seguridad_img{
+                    width: 100%;
+                    margin: 5%;
+                }
+                .seguridad_card-body{
+                    color: white;
+                    .seguridad_card-title{
+                        font-size: 100px;
+                        margin: 8% 1rem 0 0;
+                    }
+                    .seguridad_card-texto{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

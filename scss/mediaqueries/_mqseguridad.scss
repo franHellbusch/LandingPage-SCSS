@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+    .index{
+        .main-index{
+            .seguridad{
+                height: 90vh;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: local;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .seguridad_card{
+                    margin: 0;
+                    flex-direction: column;
+                    text-align: center;
+                    align-items: center;
+                    .seguridad_img{
+                        width: 50%;
+                        margin: 0;
+                    }
+                    .seguridad_card-body{
+                        .seguridad_card-title{
+                            font-size: 70px;
+                            margin: 0 0 5% 0;
+                        }
+                        .seguridad_card-texto{
+                            text-align: justify;
+                            font-size: 12px;
+                            font-weight: 600;
+                            margin: 0 10%;
+                            line-height: 23px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

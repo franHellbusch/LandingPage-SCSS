@@ -1,0 +1,109 @@
+@media (max-width: 600px) {
+    .index{
+        .main-index{
+            .gestion{
+                margin: 15% 0;
+                display: flex;
+                flex-direction: column;
+                .gestion_info{
+                    margin: 0 7%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    .gestion_info-body{
+                        .gestion_info-title{
+                            border-top: 1px solid #e9e6eb;
+                            margin: 10px 0;
+                            font-size: 33px;
+                        }
+                        .gestion_info-texto{
+                            font-size: 15px;
+                            line-height: 22px;
+                        }
+                    }
+                    .gestion_img{
+                        width: 100%;
+                    }
+                }
+                .barra{
+                    margin: 5% 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .barra-icon{
+                        width: 40%;
+                    }
+                    .animacion_barra{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        width: 90%;
+                        margin: 0;
+                        .barra_texto{
+                            display: flex;
+                            justify-content: space-between;
+                            .barra_texto-contenido{
+                                font-size: 12px;
+                                color: grey;
+                                margin: 0;
+                            }
+                            .barra_porcentaje{
+                                margin: 0;
+                                font-weight: bold;
+                            }
+                        }
+                        .barra_container{
+                            width: 100%;
+                            height: 1rem;
+                            display: flex;
+                            align-items: center;
+                            background-color: grey;
+                            border-radius: 10px;
+                            .barra_carga{
+                                border-radius: 5px;
+                                margin: 0 5px;
+                                width: 93%;
+                                height: 0.5rem;
+                                background: linear-gradient(to right, #9bb7d2, #f785a2);
+                                animation: progreso 8s ease-in-out infinite;
+                                @keyframes progreso {
+                                    0% {
+                                        width: 0%;
+                                    }
+                                    50% {
+                                        width: 93%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .gestion-cards{
+                    margin: 5% 0;
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    .gestion_card{
+                        width: 90%;
+                        margin: 3% 0;
+                        text-align: center;
+                        .gestion_card-img{
+                            width: 25%;
+                        }
+                        .card-body{
+                            .gestion_card-title{
+                                font-size: 20px;
+                                font-weight: bold;
+                            }
+                            .gestion_card-texto{
+                                font-size: 14px;
+                                line-height: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

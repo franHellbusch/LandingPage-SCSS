@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web de practica</title>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- font title -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,900&display=swap" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- mi css -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="index">
+    <header class="header">
+        <div class="header_title-position">
+            <h1 class="header_title">MRB</h1>
+            <svg id="headerNavIcon" class="header_nav-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+            <svg id="headerNavCancel" class="header_nav-cancel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+        </div>
+        <nav id="headerNav" class="header_nav">
+            <ul class="nav">
+                <li class="nav_items"><a class="nav_links" href="#">Inicio</a></li>
+                <li class="nav_items"><a class="nav_links" href="#">Conoceme</a></li>
+                <li class="nav_items"><a class="nav_links" href="#">Experiencias</a></li>
+                <li class="nav_items"><a class="nav_links" href="#">Testimonios</a></li>
+                <li class="nav_items"><a class="nav_links" href="#">Precios</a></li>
+                <li class="nav_items"><a class="nav_links" href="#">Contacto</a></li>
+            </ul>
+            <button type="button" class="nav_button">Llamanos</button>
+        </nav>
+    </header>
+    <main class="main-index">
+        <section class="img-presentacion">
+            <h3 class="presentacion_title">HAGAS<br> LO QUE HAGAS <br> ES MEJOR <br> CON UN SITIO <br> WEB</h3>
+            <img data-aos="fade-left" data-aos-duration="1500" class="img-modificaciones" src="assets/img/background.png" alt="presentacion">
+        </section>
+        <section class="bienvenida">
+            <div class="bienvenida_explicacion1">
+                <img class="bienvenida1_img" data-aos="fade-right" data-aos-duration="500" data-aos-offset="300" data-aos-easing="ease-in-sine" src="assets/img/imagenejemplo1.png" alt="bienvenida1">
+                <div class="bienvenida1_card">
+                    <h3 class="bienvenida1_title">Diseñamos tu sitio para renovar tu imagen y <br>presencia online.</h3>
+                    <p class="bienvenida1_texto">¿Necesitas generar más ventas? <b>Desarrollamos Sitios Web</b> Institucionales. Landing Pages  Adaptables a todas las pantallas. Diseño de páginas web <b>claras, atractivas y efectivas</b> que te ayudarán a dar la mejor imagen de tu negocio.</p>
+                </div>
+            </div>
+            <div class="bienvenida_explicacion2">
+                <div class="bienvenida2_card">
+                    <h3 class="bienvenida2_title">Generación y diseño de tiendas online para que aumentes tus ventas</h3>
+                    <p class="bienvenida2_texto">Realizar <b>ventas web</b> no tiene que ser tan complicado. ¿Cómo conseguirlo? Nosotros hacemos la parte difícil . Te diseñamos y generamos tu tienda web para que puedas aumentar tus canales de venta y tu exposición.</p>
+                </div>
+                <img class="bienvenida2_img" data-aos="zoom-out" data-aos-duration="1000" src="assets/img/imagenejemplo2.jpg" alt="bienvenida2">
+            </div>
+        </section>
+        <section class="seguridad">
+            <div class="seguridad_card">
+                <img class="seguridad_img" src="assets/img/seguridad-img.png" alt="seguridad">
+                <div class="seguridad_card-body">
+                    <h3 class="seguridad_card-title">SSL</h3>
+                    <p class="seguridad_card-texto">Para más seguridad a tus clientes  contamos con certificados SSL. Se trata de protocolos criptográficos que proporcionan privacidad e integridad en la comunicación entre dos puntos en una red de comunicación. Esto garantiza que la información transmitida por dicha red no pueda ser interceptada ni modificada por elementos no autorizados.</p>
+                </div>
+            </div>
+        </section>
+        <section class="gestion">
+            <div class="gestion_info">
+                <div class="gestion_info-body">
+                    <h1 class="gestion_info-title">Gestionamos tu sitio web responsive</h1>
+                    <p class="gestion_info-texto">Una <b>Web Responsive</b> es aquella que es capaz de adaptarse a cualquier dispositivo donde se visualice. Las estadísticas muestran el creciente de tráfico web que se genera desde dispositivos móviles, pero además Google penaliza  en su buscador a aquellas webs que no son responsables. Si tu sitio web está obsoleto, es el momento de ponerte en manos de nuestro equipo para <b>diseñar una web responsive.</b></p>
+                </div>
+                <img class="gestion_img" src="assets/img/gentionar-img.png" alt="gestionar-img">
+            </div>
+            <div class="barra">
+                <img class="barra-icon" src="assets/img/gestion-icon-barra.png" alt="icon-barra">
+                <div class="animacion_barra">
+                    <div class="barra_texto">
+                        <h4 class="barra_texto-contenido">Usuarios que usan internet desde Smartphone</h4>
+                        <p class="barra_porcentaje">93%</p>
+                    </div>
+                    <div class="barra_container">
+                        <span id="barraCarga" class="barra_carga">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="gestionCards" class="gestion-cards">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- mi archivo js -->
+    <script src="js/index.js"></script>
+</body>
+</html>
